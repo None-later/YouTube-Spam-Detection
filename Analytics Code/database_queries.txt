@@ -1,0 +1,3 @@
+drop view important_analytics;
+create view important_analytics as select id,publishedAt,title,viewCount,duration,definition,licensedContent,dislikeCount,likeCount,dislikeCount/likeCount as dislike_like_ratio,tags,description from youtube_snippet natural join youtube_statistics natural join youtube_contentDetails natural join youtube_description natural join youtube_title;
+select * from important_analytics limit 10;

@@ -1,0 +1,975 @@
+(['jaccard_score_1', 'jaccard_score_2', 'jaccard_score_3',
+       'jaccard_score_4', 'jaccard_score_5', 'jaccard_score_6',
+       'jaccard_score_7', 'jaccard_score_8', 'jaccard_score_9',
+       'jaccard_score_10', 'inappropriate_score_1',
+       'inappropriate_score_2', 'inappropriate_score_3',
+       'inappropriate_score_4', 'inappropriate_score_5',
+       'inappropriate_score_6', 'inappropriate_score_7',
+       'inappropriate_score_8', 'inappropriate_score_9',
+       'inappropriate_score_10', 'ratioDirected', 'sentiment_score_1',
+       'sentiment_score_2', 'sentiment_score_3', 'sentiment_score_4',
+       'sentiment_score_5', 'sentiment_score_6', 'sentiment_score_7',
+       'sentiment_score_8', 'sentiment_score_9', 'sentiment_score_10',
+       'formal_score_1', 'formal_score_2', 'formal_score_3',
+       'formal_score_4', 'formal_score_5', 'formal_score_6',
+       'formal_score_7', 'formal_score_8', 'formal_score_9',
+       'formal_score_10', 'definition', 'licensedContent'], 
+      dtype='|S28')
+
+Report of dataset:
+Training:-
+Fake :  118
+Legitimate :  299
+Testing:-
+Fake :  40
+Legitimate :  100
+
+Using SVM:
+No weightage Given
+Accuracy:  0.714285714286
+
+Classification Report:
+/usr/local/lib/python2.7/site-packages/sklearn/metrics/classification.py:1076: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+             precision    recall  f1-score   support
+
+ Legitimate       1.00      0.71      0.83       140
+       Fake       0.00      0.00      0.00         0
+
+avg / total       1.00      0.71      0.83       140
+
+Weightage Given
+Accuracy:  0.642857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.77      0.74      0.75       104
+       Fake       0.33      0.36      0.34        36
+
+avg / total       0.66      0.64      0.65       140
+
+
+Using Random Forest:
+No weightage Given
+Accuracy:  0.692857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.71      0.97      0.82       100
+       Fake       0.00      0.00      0.00        40
+
+avg / total       0.51      0.69      0.58       140
+
+
+Weightage Given
+Accuracy:  0.714285714286
+
+
+Classification Report:
+/usr/local/lib/python2.7/site-packages/sklearn/metrics/classification.py:1074: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+ Legitimate       0.71      1.00      0.83       100
+       Fake       0.00      0.00      0.00        40
+
+avg / total       0.51      0.71      0.60       140
+
+
+Using Decision Tree:
+No weightage Given
+Accuracy:  0.6
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.73      0.72       100
+       Fake       0.29      0.28      0.28        40
+
+avg / total       0.59      0.60      0.60       140
+
+Weightage Given
+Accuracy:  0.628571428571
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.74      0.75      0.74       100
+       Fake       0.34      0.33      0.33        40
+
+avg / total       0.62      0.63      0.63       140
+
+
+Using AdaBoostClassifier:
+No weightage Given
+Accuracy:  0.657142857143
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.86      0.78       100
+       Fake       0.30      0.15      0.20        40
+
+avg / total       0.60      0.66      0.62       140
+
+Weightage Given
+Accuracy:  0.657142857143
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.86      0.78       100
+       Fake       0.30      0.15      0.20        40
+
+avg / total       0.60      0.66      0.62       140
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+['jaccard_score_1', 'jaccard_score_2', 'jaccard_score_3',
+       'jaccard_score_4', 'jaccard_score_5', 'jaccard_score_6',
+       'jaccard_score_7', 'jaccard_score_8', 'jaccard_score_9',
+       'jaccard_score_10', 'inappropriate_score_1',
+       'inappropriate_score_2', 'inappropriate_score_3',
+       'inappropriate_score_4', 'inappropriate_score_5',
+       'inappropriate_score_6', 'inappropriate_score_7',
+       'inappropriate_score_8', 'inappropriate_score_9',
+       'inappropriate_score_10', 'ratioDirected', 'sentiment_score_1',
+       'sentiment_score_2', 'sentiment_score_3', 'sentiment_score_4',
+       'sentiment_score_5', 'sentiment_score_6', 'sentiment_score_7',
+       'sentiment_score_8', 'sentiment_score_9', 'sentiment_score_10',
+       'sentiment_score_11', 'sentiment_score_12', 'sentiment_score_13',
+       'sentiment_score_14', 'sentiment_score_15', 'sentiment_score_16',
+       'sentiment_score_17', 'sentiment_score_18', 'sentiment_score_19',
+       'sentiment_score_20', 'formal_score_1', 'formal_score_2',
+       'formal_score_3', 'formal_score_4', 'formal_score_5',
+       'formal_score_6', 'formal_score_7', 'formal_score_8',
+       'formal_score_9', 'formal_score_10', 'definition', 'licensedContent'], 
+      dtype='|S28')
+
+Report of dataset:
+Training:-
+Fake :  118
+Legitimate :  299
+Testing:-
+Fake :  40
+Legitimate :  100
+
+Using SVM:
+No weightage Given
+Accuracy:  0.714285714286
+
+Classification Report:
+/usr/local/lib/python2.7/site-packages/sklearn/metrics/classification.py:1076: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+             precision    recall  f1-score   support
+
+ Legitimate       1.00      0.71      0.83       140
+       Fake       0.00      0.00      0.00         0
+
+avg / total       1.00      0.71      0.83       140
+
+Weightage Given
+Accuracy:  0.642857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.77      0.74      0.75       104
+       Fake       0.33      0.36      0.34        36
+
+avg / total       0.66      0.64      0.65       140
+
+
+Using Random Forest:
+No weightage Given
+Accuracy:  0.7
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.96      0.82       100
+       Fake       0.33      0.05      0.09        40
+
+avg / total       0.61      0.70      0.61       140
+
+
+Weightage Given
+Accuracy:  0.714285714286
+
+
+Classification Report:
+/usr/local/lib/python2.7/site-packages/sklearn/metrics/classification.py:1074: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+ Legitimate       0.71      1.00      0.83       100
+       Fake       0.00      0.00      0.00        40
+
+avg / total       0.51      0.71      0.60       140
+
+
+Using Decision Tree:
+No weightage Given
+Accuracy:  0.592857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.70      0.71       100
+       Fake       0.30      0.33      0.31        40
+
+avg / total       0.60      0.59      0.60       140
+
+Weightage Given
+Accuracy:  0.628571428571
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.75      0.72      0.73       100
+       Fake       0.36      0.40      0.38        40
+
+avg / total       0.64      0.63      0.63       140
+
+
+Using AdaBoostClassifier:
+No weightage Given
+Accuracy:  0.642857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.73      0.80      0.76       100
+       Fake       0.33      0.25      0.29        40
+
+avg / total       0.61      0.64      0.63       140
+
+Weightage Given
+Accuracy:  0.642857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.73      0.80      0.76       100
+       Fake       0.33      0.25      0.29        40
+
+avg / total       0.61      0.64      0.63       140
+
+------------------------------------------------------------------------------------------------------------------------
+
+(['jaccard_score_1', 'jaccard_score_2', 'jaccard_score_3',
+       'jaccard_score_4', 'jaccard_score_5', 'jaccard_score_6',
+       'jaccard_score_7', 'jaccard_score_8', 'jaccard_score_9',
+       'jaccard_score_10', 'inappropriate_score_1',
+       'inappropriate_score_2', 'inappropriate_score_3',
+       'inappropriate_score_4', 'inappropriate_score_5',
+       'inappropriate_score_6', 'inappropriate_score_7',
+       'inappropriate_score_8', 'inappropriate_score_9',
+       'inappropriate_score_10', 'ratioDirected', 'sentiment_score_1',
+       'sentiment_score_2', 'sentiment_score_3', 'sentiment_score_4',
+       'sentiment_score_5', 'sentiment_score_6', 'sentiment_score_7',
+       'sentiment_score_8', 'sentiment_score_9', 'sentiment_score_10',
+       'sentiment_score_11', 'sentiment_score_12', 'sentiment_score_13',
+       'sentiment_score_14', 'sentiment_score_15', 'sentiment_score_16',
+       'sentiment_score_17', 'sentiment_score_18', 'sentiment_score_19',
+       'sentiment_score_20', 'ratioConversation', 'formal_score_1',
+       'formal_score_2', 'formal_score_3', 'formal_score_4',
+       'formal_score_5', 'formal_score_6', 'formal_score_7',
+       'formal_score_8', 'formal_score_9', 'formal_score_10', 'definition',
+       'licensedContent'],
+
+Report of dataset:
+Training:-
+Fake :  118
+Legitimate :  299
+Testing:-
+Fake :  40
+Legitimate :  100
+
+Using SVM:
+No weightage Given
+Accuracy:  0.714285714286
+
+Classification Report:
+/usr/local/lib/python2.7/site-packages/sklearn/metrics/classification.py:1076: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+             precision    recall  f1-score   support
+
+ Legitimate       1.00      0.71      0.83       140
+       Fake       0.00      0.00      0.00         0
+
+avg / total       1.00      0.71      0.83       140
+
+Weightage Given
+Accuracy:  0.642857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.77      0.74      0.75       104
+       Fake       0.33      0.36      0.34        36
+
+avg / total       0.66      0.64      0.65       140
+
+
+Using Random Forest:
+No weightage Given
+Accuracy:  0.707142857143
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.98      0.83       100
+       Fake       0.33      0.03      0.05        40
+
+avg / total       0.61      0.71      0.60       140
+
+
+Weightage Given
+Accuracy:  0.707142857143
+
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.71      0.99      0.83       100
+       Fake       0.00      0.00      0.00        40
+
+avg / total       0.51      0.71      0.59       140
+
+
+Using Decision Tree:
+No weightage Given
+Accuracy:  0.614285714286
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.73      0.72      0.73       100
+       Fake       0.33      0.35      0.34        40
+
+avg / total       0.62      0.61      0.62       140
+
+Weightage Given
+Accuracy:  0.621428571429
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.74      0.73      0.73       100
+       Fake       0.34      0.35      0.35        40
+
+avg / total       0.62      0.62      0.62       140
+
+
+Using AdaBoostClassifier:
+No weightage Given
+Accuracy:  0.614285714286
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.76      0.74       100
+       Fake       0.29      0.25      0.27        40
+
+avg / total       0.60      0.61      0.60       140
+
+Weightage Given
+Accuracy:  0.614285714286
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.76      0.74       100
+       Fake       0.29      0.25      0.27        40
+
+avg / total       0.60      0.61      0.60       140
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+['jaccard_score_1', 'jaccard_score_2', 'jaccard_score_3',
+       'jaccard_score_4', 'jaccard_score_5', 'jaccard_score_6',
+       'jaccard_score_7', 'jaccard_score_8', 'jaccard_score_9',
+       'jaccard_score_10', 'inappropriate_score_1',
+       'inappropriate_score_2', 'inappropriate_score_3',
+       'inappropriate_score_4', 'inappropriate_score_5',
+       'inappropriate_score_6', 'inappropriate_score_7',
+       'inappropriate_score_8', 'inappropriate_score_9',
+       'inappropriate_score_10', 'ratioDirected', 'sentiment_score_1',
+       'sentiment_score_2', 'sentiment_score_3', 'sentiment_score_4',
+       'sentiment_score_5', 'sentiment_score_6', 'sentiment_score_7',
+       'sentiment_score_8', 'sentiment_score_9', 'sentiment_score_10',
+       'sentiment_score_11', 'sentiment_score_12', 'sentiment_score_13',
+       'sentiment_score_14', 'sentiment_score_15', 'sentiment_score_16',
+       'sentiment_score_17', 'sentiment_score_18', 'sentiment_score_19',
+       'sentiment_score_20', 'ratioConversation',
+       'comment_temporal_pattern_1', 'formal_score_1', 'formal_score_2',
+       'formal_score_3', 'formal_score_4', 'formal_score_5',
+       'formal_score_6', 'formal_score_7', 'formal_score_8',
+       'formal_score_9', 'formal_score_10', 'definition', 'licensedContent'], 
+      dtype='|S28')
+
+Sudhanshus-MacBook-Pro:Analysis Code sudhanshubahety$ python model2.py 3 no
+Report of dataset:
+Training:-
+Fake :  118
+Legitimate :  299
+Testing:-
+Fake :  40
+Legitimate :  100
+
+Using SVM:
+No weightage Given
+Accuracy:  0.714285714286
+
+Classification Report:
+/usr/local/lib/python2.7/site-packages/sklearn/metrics/classification.py:1076: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+             precision    recall  f1-score   support
+
+ Legitimate       1.00      0.71      0.83       140
+       Fake       0.00      0.00      0.00         0
+
+avg / total       1.00      0.71      0.83       140
+
+Weightage Given
+Accuracy:  0.642857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.77      0.74      0.75       104
+       Fake       0.33      0.36      0.34        36
+
+avg / total       0.66      0.64      0.65       140
+
+
+Using Random Forest:
+No weightage Given
+Accuracy:  0.692857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.71      0.97      0.82       100
+       Fake       0.00      0.00      0.00        40
+
+avg / total       0.51      0.69      0.58       140
+
+
+Weightage Given
+Accuracy:  0.721428571429
+
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      1.00      0.84       100
+       Fake       1.00      0.03      0.05        40
+
+avg / total       0.80      0.72      0.61       140
+
+
+Using Decision Tree:
+No weightage Given
+Accuracy:  0.65
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.75      0.77      0.76       100
+       Fake       0.38      0.35      0.36        40
+
+avg / total       0.64      0.65      0.65       140
+
+Weightage Given
+Accuracy:  0.621428571429
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.75      0.70      0.73       100
+       Fake       0.36      0.42      0.39        40
+
+avg / total       0.64      0.62      0.63       140
+
+
+Using AdaBoostClassifier:
+No weightage Given
+Accuracy:  0.614285714286
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.76      0.74       100
+       Fake       0.29      0.25      0.27        40
+
+avg / total       0.60      0.61      0.60       140
+
+Weightage Given
+Accuracy:  0.614285714286
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.76      0.74       100
+       Fake       0.29      0.25      0.27        40
+
+avg / total       0.60      0.61      0.60       140
+
+------------------------------------------------------------------------------------------------------------------------------
+
+array(['Channel_subscriberCountRatiovideo',
+       'Channel_subscriberCountRatioviews', 'Channel_commentCountRatio',
+       'Channel_viewCountRatio', 'Comment_jaccard_score_1',
+       'Comment_jaccard_score_2', 'Comment_jaccard_score_3',
+       'Comment_jaccard_score_4', 'Comment_jaccard_score_5',
+       'Comment_jaccard_score_6', 'Comment_jaccard_score_7',
+       'Comment_jaccard_score_8', 'Comment_jaccard_score_9',
+       'Comment_jaccard_score_10', 'Comment_inappropriate_score_1',
+       'Comment_inappropriate_score_2', 'Comment_inappropriate_score_3',
+       'Comment_inappropriate_score_4', 'Comment_inappropriate_score_5',
+       'Comment_inappropriate_score_6', 'Comment_inappropriate_score_7',
+       'Comment_inappropriate_score_8', 'Comment_inappropriate_score_9',
+       'Comment_inappropriate_score_10', 'Comment_ratioDirected',
+       'Comment_sentiment_score_1', 'Comment_sentiment_score_2',
+       'Comment_sentiment_score_3', 'Comment_sentiment_score_4',
+       'Comment_sentiment_score_5', 'Comment_sentiment_score_6',
+       'Comment_sentiment_score_7', 'Comment_sentiment_score_8',
+       'Comment_sentiment_score_9', 'Comment_sentiment_score_10',
+       'Comment_sentiment_score_11', 'Comment_sentiment_score_12',
+       'Comment_sentiment_score_13', 'Comment_sentiment_score_14',
+       'Comment_sentiment_score_15', 'Comment_sentiment_score_16',
+       'Comment_sentiment_score_17', 'Comment_sentiment_score_18',
+       'Comment_sentiment_score_19', 'Comment_sentiment_score_20',
+       'Comment_ratioConversation', 'Comment_comment_temporal_pattern_1',
+       'Comment_formal_score_1', 'Comment_formal_score_2',
+       'Comment_formal_score_3', 'Comment_formal_score_4',
+       'Comment_formal_score_5', 'Comment_formal_score_6',
+       'Comment_formal_score_7', 'Comment_formal_score_8',
+       'Comment_formal_score_9', 'Comment_formal_score_10',
+       'Video_favoriteCountRatio', 'Video_definition',
+       'Video_likeCountRatio', 'Video_dislikeCountRatio',
+       'Video_licensedContent', 'Video_dislikelikeRatio'], 
+      dtype='|S36')
+Report of dataset:
+Training:-
+Fake :  118
+Legitimate :  299
+Testing:-
+Fake :  40
+Legitimate :  100
+
+Using SVM:
+No weightage Given
+Accuracy:  0.714285714286
+
+Classification Report:
+/usr/local/lib/python2.7/site-packages/sklearn/metrics/classification.py:1076: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+             precision    recall  f1-score   support
+
+ Legitimate       1.00      0.71      0.83       140
+       Fake       0.00      0.00      0.00         0
+
+avg / total       1.00      0.71      0.83       140
+
+Weightage Given
+Accuracy:  0.714285714286
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       1.00      0.71      0.83       140
+       Fake       0.00      0.00      0.00         0
+
+avg / total       1.00      0.71      0.83       140
+
+
+Using Random Forest:
+No weightage Given
+Accuracy:  0.692857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.71      0.96      0.82       100
+       Fake       0.20      0.03      0.04        40
+
+avg / total       0.57      0.69      0.60       140
+
+Feature ranking:
+1. feature viewCount (0.014929)
+2. feature subscriberCount (0.012982)
+3. feature videoCount (0.009469)
+4. feature sentiment_score_15 (0.008974)
+5. feature comment_temporal_pattern_241 (0.008956)
+6. feature sentiment_score_20 (0.008445)
+7. feature jaccard_score_10 (0.008091)
+8. feature sentiment_score_10 (0.007691)
+9. feature comment_temporal_pattern_226 (0.007513)
+10. feature formal_score_4 (0.007370)
+Weightage Given
+Accuracy:  0.7
+Feature ranking:
+1. feature viewCount (0.012782)
+2. feature ratioDirected (0.011364)
+3. feature sentiment_score_18 (0.010906)
+4. feature sentiment_score_2 (0.010597)
+5. feature subscriberCount (0.009062)
+6. feature ratioConversation (0.008924)
+7. feature inappropriate_score_2 (0.008470)
+8. feature comment_temporal_pattern_282 (0.007769)
+9. feature sentiment_score_7 (0.007666)
+10. feature sentiment_score_14 (0.007240)
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.71      0.98      0.82       100
+       Fake       0.00      0.00      0.00        40
+
+avg / total       0.51      0.70      0.59       140
+
+
+Using Decision Tree:
+No weightage Given
+Accuracy:  0.642857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.78      0.70      0.74       100
+       Fake       0.40      0.50      0.44        40
+
+avg / total       0.67      0.64      0.65       140
+
+Weightage Given
+Accuracy:  0.578571428571
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.71      0.70      0.70       100
+       Fake       0.27      0.28      0.27        40
+
+avg / total       0.58      0.58      0.58       140
+
+
+Using AdaBoostClassifier:
+No weightage Given
+Accuracy:  0.65
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.83      0.77       100
+       Fake       0.32      0.20      0.25        40
+
+avg / total       0.61      0.65      0.62       140
+
+Weightage Given
+Accuracy:  0.65
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.83      0.77       100
+       Fake       0.32      0.20      0.25        40
+
+avg / total       0.61      0.65      0.62       140
+
+-------------------------------------------------------------------------------------------------------------------------------
+Taking only relevant and liked comments and using all features
+
+Report of dataset:
+Training:-
+Fake :  117
+Legitimate :  299
+Testing:-
+Fake :  40
+Legitimate :  100
+
+Using SVM:
+No weightage Given
+Accuracy:  0.728571428571
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.98      0.73      0.84       134
+       Fake       0.10      0.67      0.17         6
+
+avg / total       0.94      0.73      0.81       140
+
+Weightage Given
+Accuracy:  0.714285714286
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.96      0.73      0.83       132
+       Fake       0.10      0.50      0.17         8
+
+avg / total       0.91      0.71      0.79       140
+
+
+Using Random Forest:
+No weightage Given
+Accuracy:  0.55
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.77      0.53      0.63       100
+       Fake       0.34      0.60      0.43        40
+
+avg / total       0.65      0.55      0.57       140
+
+Feature ranking:
+1. feature Video_dislikelikeRatio (0.042441)
+2. feature Comment_inappropriate_score_2 (0.010924)
+3. feature Comment_sentiment_score_17 (0.010752)
+4. feature Comment_sentiment_score_5 (0.010446)
+5. feature Comment_sentiment_score_6 (0.009878)
+6. feature Comment_sentiment_score_4 (0.009797)
+7. feature Comment_formal_score_1 (0.009671)
+8. feature Comment_inappropriate_score_1 (0.009132)
+9. feature Comment_formal_score_3 (0.009130)
+10. feature Comment_sentiment_score_3 (0.008782)
+Weightage Given
+Accuracy:  0.671428571429
+Feature ranking:
+1. feature Video_dislikelikeRatio (0.027874)
+2. feature Comment_sentiment_score_1 (0.011298)
+3. feature Comment_formal_score_6 (0.010873)
+4. feature Comment_sentiment_score_3 (0.010352)
+5. feature Comment_sentiment_score_17 (0.010351)
+6. feature Comment_formal_score_4 (0.009584)
+7. feature Video_dislikeCountRatio (0.009379)
+8. feature Comment_sentiment_score_16 (0.009229)
+9. feature Comment_formal_score_5 (0.009138)
+10. feature Channel_viewCountRatio (0.008658)
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.71      0.91      0.80       100
+       Fake       0.25      0.07      0.12        40
+
+avg / total       0.58      0.67      0.60       140
+
+
+Using Decision Tree:
+No weightage Given
+Accuracy:  0.292857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       1.00      0.01      0.02       100
+       Fake       0.29      1.00      0.45        40
+
+avg / total       0.80      0.29      0.14       140
+
+Weightage Given
+Accuracy:  0.292857142857
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       1.00      0.01      0.02       100
+       Fake       0.29      1.00      0.45        40
+
+avg / total       0.80      0.29      0.14       140
+
+
+Using AdaBoostClassifier:
+No weightage Given
+Accuracy:  0.3
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       1.00      0.02      0.04       100
+       Fake       0.29      1.00      0.45        40
+
+avg / total       0.80      0.30      0.16       140
+
+Weightage Given
+Accuracy:  0.3
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       1.00      0.02      0.04       100
+       Fake       0.29      1.00      0.45        40
+
+avg / total       0.80      0.30      0.16       140
+
+
+-------------------------------------------------------------------------------------------------------------------------
+array(['Channel_subscriberCountRatiovideo',
+       'Channel_subscriberCountRatioviews', 'Channel_commentCountRatio',
+       'Channel_viewCountRatio', 'Comment_jaccard_score_1',
+       'Comment_jaccard_score_2', 'Comment_jaccard_score_3',
+       'Comment_jaccard_score_4', 'Comment_jaccard_score_5',
+       'Comment_jaccard_score_6', 'Comment_jaccard_score_7',
+       'Comment_jaccard_score_8', 'Comment_jaccard_score_9',
+       'Comment_jaccard_score_10', 'Comment_inappropriate_score_1',
+       'Comment_inappropriate_score_2', 'Comment_inappropriate_score_3',
+       'Comment_inappropriate_score_4', 'Comment_inappropriate_score_5',
+       'Comment_inappropriate_score_6', 'Comment_inappropriate_score_7',
+       'Comment_inappropriate_score_8', 'Comment_inappropriate_score_9',
+       'Comment_inappropriate_score_10', 'Comment_ratioDirected',
+       'Comment_sentiment_score_1', 'Comment_sentiment_score_2',
+       'Comment_sentiment_score_3', 'Comment_sentiment_score_4',
+       'Comment_sentiment_score_5', 'Comment_sentiment_score_6',
+       'Comment_sentiment_score_7', 'Comment_sentiment_score_8',
+       'Comment_sentiment_score_9', 'Comment_sentiment_score_10',
+       'Comment_sentiment_score_11', 'Comment_sentiment_score_12',
+       'Comment_sentiment_score_13', 'Comment_sentiment_score_14',
+       'Comment_sentiment_score_15', 'Comment_sentiment_score_16',
+       'Comment_sentiment_score_17', 'Comment_sentiment_score_18',
+       'Comment_sentiment_score_19', 'Comment_sentiment_score_20',
+       'Comment_ratioConversation', 'Comment_comment_temporal_pattern_1',
+       'Comment_formal_score_1', 'Comment_formal_score_2',
+       'Comment_formal_score_3', 'Comment_formal_score_4',
+       'Comment_formal_score_5', 'Comment_formal_score_6',
+       'Comment_formal_score_7', 'Comment_formal_score_8',
+       'Comment_formal_score_9', 'Comment_formal_score_10',
+       'Video_favoriteCountRatio', 'Video_definition',
+       'Video_likeCountRatio', 'Video_dislikeCountRatio',
+       'Video_licensedContent', 'Video_dislikelikeRatio'], 
+      dtype='|S36')
+
+      
+Report of dataset:
+Training:-
+Fake :  118
+Legitimate :  118
+Testing:-
+Fake :  40
+Legitimate :  40
+
+Using SVM:
+No weightage Given
+Accuracy:  0.6375
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.95      0.58      0.72        65
+       Fake       0.33      0.87      0.47        15
+
+avg / total       0.83      0.64      0.68        80
+
+Weightage Given
+Accuracy:  0.6375
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.95      0.58      0.72        65
+       Fake       0.33      0.87      0.47        15
+
+avg / total       0.83      0.64      0.68        80
+
+
+Using Random Forest:
+No weightage Given
+Accuracy:  0.8625
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.91      0.80      0.85        40
+       Fake       0.82      0.93      0.87        40
+
+avg / total       0.87      0.86      0.86        80
+
+Feature ranking:
+1. feature Comment_sentiment_score_16 (0.095595)
+2. feature Comment_inappropriate_score_8 (0.058677)
+3. feature Comment_sentiment_score_14 (0.056392)
+4. feature Comment_sentiment_score_15 (0.055357)
+5. feature Comment_sentiment_score_6 (0.050493)
+6. feature Comment_sentiment_score_2 (0.041840)
+7. feature Comment_inappropriate_score_9 (0.041098)
+8. feature Comment_inappropriate_score_10 (0.036345)
+9. feature Comment_inappropriate_score_6 (0.031352)
+10. feature Comment_ratioDirected (0.029676)
+Weightage Given
+Accuracy:  0.85
+Feature ranking:
+1. feature Comment_sentiment_score_16 (0.118603)
+2. feature Comment_sentiment_score_14 (0.066486)
+3. feature Comment_inappropriate_score_8 (0.052621)
+4. feature Comment_sentiment_score_15 (0.049057)
+5. feature Comment_inappropriate_score_9 (0.042571)
+6. feature Comment_inappropriate_score_10 (0.034156)
+7. feature Comment_jaccard_score_8 (0.033912)
+8. feature Comment_sentiment_score_2 (0.032918)
+9. feature Comment_sentiment_score_19 (0.032081)
+10. feature Comment_sentiment_score_6 (0.032064)
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.85      0.85      0.85        40
+       Fake       0.85      0.85      0.85        40
+
+avg / total       0.85      0.85      0.85        80
+
+
+Using Decision Tree:
+No weightage Given
+Accuracy:  0.8375
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.83      0.85      0.84        40
+       Fake       0.85      0.82      0.84        40
+
+avg / total       0.84      0.84      0.84        80
+
+Weightage Given
+Accuracy:  0.8625
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.89      0.82      0.86        40
+       Fake       0.84      0.90      0.87        40
+
+avg / total       0.86      0.86      0.86        80
+
+
+Using AdaBoostClassifier:
+No weightage Given
+Accuracy:  0.8125
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.82      0.80      0.81        40
+       Fake       0.80      0.82      0.81        40
+
+avg / total       0.81      0.81      0.81        80
+
+Weightage Given
+Accuracy:  0.8125
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.82      0.80      0.81        40
+       Fake       0.80      0.82      0.81        40
+
+avg / total       0.81      0.81      0.81        80

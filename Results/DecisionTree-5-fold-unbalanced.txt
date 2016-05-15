@@ -1,0 +1,87 @@
+Using Decision Tree:
+Total Size:- 657
+Training:-
+Fake :  126
+Legitimate :  399
+Testing:-
+Fake :  32
+Legitimate :  100
+Weightage Given
+Accuracy:  0.909090909091
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.93      0.95      0.94       100
+       Fake       0.83      0.78      0.81        32
+
+avg / total       0.91      0.91      0.91       132
+
+Training:-
+Fake :  126
+Legitimate :  399
+Testing:-
+Fake :  32
+Legitimate :  100
+Weightage Given
+Accuracy:  0.901515151515
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.92      0.95      0.94       100
+       Fake       0.83      0.75      0.79        32
+
+avg / total       0.90      0.90      0.90       132
+
+Training:-
+Fake :  126
+Legitimate :  399
+Testing:-
+Fake :  32
+Legitimate :  100
+Weightage Given
+Accuracy:  0.916666666667
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.94      0.95      0.95       100
+       Fake       0.84      0.81      0.83        32
+
+avg / total       0.92      0.92      0.92       132
+
+Training:-
+Fake :  127
+Legitimate :  399
+Testing:-
+Fake :  31
+Legitimate :  100
+Weightage Given
+Accuracy:  0.900763358779
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.95      0.92      0.93       100
+       Fake       0.76      0.84      0.80        31
+
+avg / total       0.90      0.90      0.90       131
+
+Training:-
+Fake :  127
+Legitimate :  400
+Testing:-
+Fake :  31
+Legitimate :  99
+Weightage Given
+Accuracy:  0.938461538462
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.94      0.98      0.96        99
+       Fake       0.93      0.81      0.86        31
+
+avg / total       0.94      0.94      0.94       130
+

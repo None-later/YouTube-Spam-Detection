@@ -1,0 +1,86 @@
+Using AdaBoostClassifier:
+Total Size:- 657
+Training:-
+Fake :  126
+Legitimate :  399
+Testing:-
+Fake :  32
+Legitimate :  100
+Weightage Given
+Accuracy:  0.94696969697
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.94      0.99      0.97       100
+       Fake       0.96      0.81      0.88        32
+
+avg / total       0.95      0.95      0.95       132
+
+Training:-
+Fake :  126
+Legitimate :  399
+Testing:-
+Fake :  32
+Legitimate :  100
+Weightage Given
+Accuracy:  0.962121212121
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.99      0.96      0.97       100
+       Fake       0.89      0.97      0.93        32
+
+avg / total       0.96      0.96      0.96       132
+
+Training:-
+Fake :  126
+Legitimate :  399
+Testing:-
+Fake :  32
+Legitimate :  100
+Weightage Given
+Accuracy:  0.931818181818
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.93      0.98      0.96       100
+       Fake       0.93      0.78      0.85        32
+
+avg / total       0.93      0.93      0.93       132
+
+Training:-
+Fake :  127
+Legitimate :  399
+Testing:-
+Fake :  31
+Legitimate :  100
+Weightage Given
+Accuracy:  0.916030534351
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.91      0.99      0.95       100
+       Fake       0.95      0.68      0.79        31
+
+avg / total       0.92      0.92      0.91       131
+
+Training:-
+Fake :  127
+Legitimate :  400
+Testing:-
+Fake :  31
+Legitimate :  99
+Weightage Given
+Accuracy:  0.915384615385
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.92      0.97      0.95        99
+       Fake       0.88      0.74      0.81        31
+
+avg / total       0.91      0.92      0.91       130

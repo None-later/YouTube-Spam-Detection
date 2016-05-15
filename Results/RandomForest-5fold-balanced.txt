@@ -1,0 +1,90 @@
+Using Random Forest:
+Total Size:- 316
+Training:-
+Fake :  126.0
+Legitimate :  126.0
+Testing:-
+Fake :  32.0
+Legitimate :  32.0
+No weightage Given
+Accuracy:  0.90625
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.96      0.84      0.90        32
+       Fake       0.86      0.97      0.91        32
+
+avg / total       0.91      0.91      0.91        64
+
+Total Size:- 316
+Training:-
+Fake :  126.0
+Legitimate :  126.0
+Testing:-
+Fake :  32.0
+Legitimate :  32.0
+No weightage Given
+Accuracy:  0.84375
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.92      0.75      0.83        32
+       Fake       0.79      0.94      0.86        32
+
+avg / total       0.86      0.84      0.84        64
+
+Total Size:- 316
+Training:-
+Fake :  126.0
+Legitimate :  126.0
+Testing:-
+Fake :  32.0
+Legitimate :  32.0
+No weightage Given
+Accuracy:  0.875
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.85      0.91      0.88        32
+       Fake       0.90      0.84      0.87        32
+
+avg / total       0.88      0.88      0.87        64
+
+Total Size:- 316
+Training:-
+Fake :  127.0
+Legitimate :  127.0
+Testing:-
+Fake :  31.0
+Legitimate :  31.0
+No weightage Given
+Accuracy:  0.822580645161
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.78      0.90      0.84        31
+       Fake       0.88      0.74      0.81        31
+
+avg / total       0.83      0.82      0.82        62
+
+Total Size:- 316
+Training:-
+Fake :  127.0
+Legitimate :  127.0
+Testing:-
+Fake :  31.0
+Legitimate :  31.0
+No weightage Given
+Accuracy:  0.758064516129
+
+Classification Report:
+             precision    recall  f1-score   support
+
+ Legitimate       0.72      0.84      0.78        31
+       Fake       0.81      0.68      0.74        31
+
+avg / total       0.76      0.76      0.76        62

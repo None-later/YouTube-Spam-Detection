@@ -1,0 +1,13 @@
+drop table if exists youtube_brokendescription;
+drop table if exists youtube_brokentitle;
+drop table if exists youtube_content;
+drop table if exists youtube_contentDetails;
+drop table if exists youtube_description;
+drop table if exists youtube_discarded;
+drop table if exists youtube_relevantTopic;
+drop table if exists youtube_snippet;
+drop table if exists youtube_statistics;
+drop table if exists youtube_status;
+drop table if exists youtube_title;
+drop table if exists youtube_topicDetails;
+drop table if exists youtube_player;
